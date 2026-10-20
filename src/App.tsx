@@ -1,13 +1,12 @@
 import './App.css'
+import AppRoutes from "./routes";
 
-function App() {
+const App = () => {
   return (
-    <div className="flex h-screen items-center justify-center">
-      <h1 className="text-5xl font-bold text-blue-600">
-        Tailwind OK 🚀
-      </h1>
+    <div className="min-h-screen bg-gray-50">
+      <AppRoutes />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
